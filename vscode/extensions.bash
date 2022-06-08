@@ -1,5 +1,4 @@
 # The following file automatically downloads, and installs all the VSCode extensions listed.
-# Requires an installation of vscode, as it relies on the "code" command. To run the script:
 #
 #  How to run the script:
 #   0. Make sure VSCode is installed.
