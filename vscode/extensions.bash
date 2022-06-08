@@ -4,7 +4,7 @@
 #   0. Make sure VSCode is installed.
 #   1. Download the file
 #   2. Navigate to the files location.
-#   3. Run "sh extensions.bash" 
+#   3. Run "sh extensions.bash" in the terminal.
 
 # Markdownlint: Automatically refactor badly written documentation.
 code --install-extension DavidAnson.vscode-markdownlint
