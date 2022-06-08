@@ -1,0 +1,28 @@
+{
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.formatOnPaste": true, //Automatically format text when pasting & saving.
+    "editor.formatOnSave": true, //Automatically format text when pasting & saving.
+    "editor.mouseWheelZoom": true, //Enable ctrl + mousewheel for zooming.
+    "explorer.confirmDelete": false, //Disable confirm prompt when deleting files.
+    "explorer.confirmDragAndDrop": false, //Disable confirm prompt when moving files.
+    "explorer.sortOrder": "type", //Sort files by type.
+    "files.associations": {
+        "*.svelte": "html" //Treat .svelte files as HTML.
+    },
+    "files.insertFinalNewline": true, //Insert empty line at the end of files.
+    "files.trimFinalNewlines": true, //Trim excess new lines.
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.title": "${activeEditorMedium}${separator}${rootName}", //Window name = actual file path.
+    "workbench.editor.highlightModifiedTabs": true, //Unsaved filetab lights up.
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.startupEditor": "none",
+    "editor.accessibilitySupport": "off", //Switch editor tabs via mouse wheel.
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "github.copilot.advanced": {},
+    "window.zoomLevel": 1
+}
