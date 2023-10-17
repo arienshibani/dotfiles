@@ -1,7 +1,7 @@
 {
     "editor.acceptSuggestionOnEnter": "smart",
     "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.formatOnPaste": true, //Automatically format text when pasting & saving.
     "editor.formatOnSave": true, //Automatically format text when pasting & saving.
     "editor.mouseWheelZoom": true, //Enable ctrl + mousewheel for zooming.
