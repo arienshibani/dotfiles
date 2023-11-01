@@ -94,7 +94,7 @@ sh install.sh
 ## Misc. Setup
 
 ### ⌘ + K
-Allowing ⌘ + K to clear the integrated terminal is essential for me on a Mac.
+Allowing ⌘ + K to clear the integrated terminal in VSCode is essential for me.
 
 ```json
 [
