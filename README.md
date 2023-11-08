@@ -3,7 +3,7 @@
 Everything I need on a fresh OSX machine. Installed by one script.
 
 
-* 🍺 Installs [Homebrew](https://brew.sh/) (macOS)
+* 🍺 Installs [Homebrew](https://brew.sh/) (macOS / Linux)
   * then proceeds to install all the software described in the `Brewfile` via Homebrew 🤝
 * 😮 Sets up [Oh My Zsh](https://ohmyz.sh/) and a good `.zshrc` config
 * 🔌 Installs the [Powerline font](https://github.com/powerline/fonts)  for the terminal
@@ -94,7 +94,7 @@ sh install.sh
 ## Misc. Setup
 
 ### ⌘ + K
-Allowing ⌘ + K to clear the integrated terminal is essential for me on a Mac.
+Allowing ⌘ + K to clear the integrated terminal in VSCode is essential for me.
 
 ```json
 [
