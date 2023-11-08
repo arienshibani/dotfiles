@@ -22,3 +22,5 @@ shd101wyy.markdown-preview-enhanced
 VisualStudioExptTeam.intellicode-api-usage-examples
 tomoki1207.pdf
 ZhixiangZhang.mdlint
+ms-dotnettools.csdevkit
+ms-dotnettools.csharp
