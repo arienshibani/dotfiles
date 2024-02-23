@@ -91,6 +91,19 @@ sh install.sh
   gpg-agent[691337]: gpg-agent running and available
 ```
 
+## FAQ
+Frequently asked questions / common issues
+
+### brew: command not found
+If you get the folowing message from the installation script. 
+```
+🍻 Run 'Brew bundle'?[Y/N] y
+install.sh: line 131: brew: command not found
+```
+
+Run this command in your terminal to add Homebrew to your PATH:
+`eval "$(/opt/homebrew/bin/brew shellenv)"`
+
 ## Misc. Setup
 
 ### ⌘ + K
@@ -105,3 +118,4 @@ Allowing ⌘ + K to clear the integrated terminal in VSCode is essential for me.
   }
 ]
 ```
+
