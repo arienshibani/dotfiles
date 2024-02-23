@@ -91,10 +91,9 @@ sh install.sh
   gpg-agent[691337]: gpg-agent running and available
 ```
 
-## FAQ
-Frequently asked questions / common issues
+## FAQ  / Common issues
 
-### brew: command not found
+### Brew: command not found?
 If you get the folowing message from the installation script. 
 ```
 🍻 Run 'Brew bundle'?[Y/N] y
@@ -103,6 +102,17 @@ install.sh: line 131: brew: command not found
 
 Run this command in your terminal to add Homebrew to your PATH:
 `eval "$(/opt/homebrew/bin/brew shellenv)"`
+
+### Github wont let me clone stuff.. 🥲
+It’s a good idea to generate a fresh SSH key for your new setup:
+
+* **Open up your terminal 🧑‍💻**
+  * Generate a new SSH key: `ssh-keygen -t ed25519 -C "<your_email_or_whatever>"`
+* **Add the new SSH key to GitHub 🔐**
+  * `pbcopy < ~/.ssh/id_ed25519.pub`
+  * Go to your github account settings, navigate to SSH and GPG keys, and click on New SSH Key
+  * Paste the copied public key into the provided field and save it.
+
 
 ## Misc. Setup
 
