@@ -93,9 +93,10 @@ sh install.sh
 
 ## FAQ  / Common issues
 
-### Brew: command not found?
-If you get the folowing message from the installation script. 
-```
+### Brew: command not found
+If you get the following message from the installation script.
+
+```shell
 🍻 Run 'Brew bundle'?[Y/N] y
 install.sh: line 131: brew: command not found
 ```
@@ -128,4 +129,3 @@ Allowing ⌘ + K to clear the integrated terminal in VSCode is essential for me.
   }
 ]
 ```
-
