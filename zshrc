@@ -28,6 +28,7 @@ alias ls='ls -la --color=auto'
 alias sauce='source ~/.zshrc'
 alias ports="lsof -PiTCP -sTCP:LISTEN" # List all open ports
 alias givekeys="pbcopy < ~/.ssh/id_rsa.pub" # Copies your SSH key to your clipboard
+alias swiss-army-knife="kubectl run swiss-army-knife --rm -i --tty --image nicolaka/netshoot -- /bin/bash" # A swiss army knife for networkdebugging in k8s.
 alias killport='function _killp(){ lsof -nti:$1 | xargs kill -9 };_killp' # Shuts down whatever is running on a given port.
 alias prunelocal='git branch | grep -v "main" | xargs git branch -D' # Delete all local branches except main in whatever repo you're in.
 alias nvm="fnm" # fnm is a faster version of nvm, so I alias it to nvm.
