@@ -1,28 +1,32 @@
 {
-    "editor.acceptSuggestionOnEnter": "smart",
-    "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.acceptSuggestionOnEnter": "smart", // Only accept suggestions with Enter when it makes sense.
+    "editor.cursorBlinking": "smooth", // Smooth cursor blinking.
+    "editor.cursorSmoothCaretAnimation": "on", // Smooth cursor animation.
     "editor.formatOnPaste": true, //Automatically format text when pasting & saving.
     "editor.formatOnSave": true, //Automatically format text when pasting & saving.
     "editor.mouseWheelZoom": true, //Enable ctrl + mousewheel for zooming.
     "explorer.confirmDelete": false, //Disable confirm prompt when deleting files.
     "explorer.confirmDragAndDrop": false, //Disable confirm prompt when moving files.
     "explorer.sortOrder": "type", //Sort files by type.
+    "files.autoSave": "onFocusChange" // Auto save files when focus is lost.
     "files.associations": {
         "*.svelte": "html" //Treat .svelte files as HTML.
     },
     "files.insertFinalNewline": true, //Insert empty line at the end of files.
     "files.trimFinalNewlines": true, //Trim excess new lines.
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always", // Auto update imports when moving files.
+    "typescript.updateImportsOnFileMove.enabled": "always", // Auto update imports when moving files.
     "window.title": "${activeEditorMedium}${separator}${rootName}", //Window name = actual file path.
     "workbench.editor.highlightModifiedTabs": true, //Unsaved filetab lights up.
-    "workbench.editor.scrollToSwitchTabs": true,
-    "workbench.startupEditor": "none",
+    "workbench.editor.scrollToSwitchTabs": true, // Scroll to switch tabs.
+    "workbench.startupEditor": "none", // Disable welcome page.
     "editor.accessibilitySupport": "off", //Switch editor tabs via mouse wheel.
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": "active",
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "github.copilot.advanced": {},
-    "window.zoomLevel": 1
+    "editor.bracketPairColorization.enabled": true, // Enable bracket pair colorization.
+    "editor.guides.bracketPairs": "active", // Highlight matching brackets.
+    "editor.mouseWheelZoom": true, // Enable ctrl + mousewheel for zooming.
+    "editor.mouseWheelScrollSensitivity": 1, // Mouse wheel scroll sensitivity.
+    "terminal.integrated.enableMultiLinePasteWarning": false, // Disable paste warning in terminal.
+    "git.enableSmartCommit": true, // Enable smart commit.
+    "git.confirmSync": false, // Disable confirm prompt when syncing.
+    "window.zoomLevel": 1 // Zoom level of the window.
 }
