@@ -56,7 +56,7 @@ alias open-dev='osascript ~/Scripts/launch_terminals.scpt'
 
 
 # Display neofetch, unless the terminal is opened in in VSzed.
-if [[ "$TERM_PROGRAM" != "vszed" ]]; then
+if [[ "$TERM_PROGRAM" != "zed" ]]; then
   neofetch --ascii ~/.config/neofetch/ascii-art/stacc.txt
 fi
 
