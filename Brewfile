@@ -19,11 +19,15 @@ brew "kubectx" # Switch between k8s contexts
 brew "gnupg" # GPG
 
 # APPLICATIONS
-cask "visual-studio-code" # Code Editor of Choice
+cask "cursor" # Code Editor of choice
+cask "orbstack" # Run containers
+cask "postman" # API testing
+cask "bruno" # API testing
 cask "1password" # Password manager
 cask "1password-cli" # Password manager CLI
-cask "postman" # Used for API testing
 cask "slack" # Business chat
-cask "discord" # Chat with the homies
+cask "discord" # Chat
 cask "flameshot" # Screenshot tool
 cask "spotify" # Music
+
+
