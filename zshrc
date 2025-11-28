@@ -1,5 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
-export KUBE_EDITOR='zed --wait'
+export KUBE_EDITOR='cursor --wait'
 export DOTNET_ROOT=/usr/local/share/dotnet/sdk/6.0.422
 export GPG_TTY=$(tty)
 export KUBECONFIG=$(PWD)/.kubeconfig
@@ -8,11 +8,11 @@ ZSH_THEME="agnoster"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting you-should-use zsh-bat)
 
 # Quick-edit Config Files 📝
-alias editrc='zed ~/.zshrc'
+alias editrc='cursor ~/.zshrc'
 alias editgit='git config --global --edit'
-alias editaws="zed ~/.aws/config"
-alias editkube="zed ~/.kube/config"
-alias editstarship="zed ~/.config/starship.toml"
+alias editaws="cursor ~/.aws/config"
+alias editkube="cursor ~/.kube/config"
+alias editstarship="cursor ~/.config/starship.toml"
 
 # Navigation helpers 🧭
 alias repos='cd ~/repos'
@@ -55,8 +55,8 @@ alias kafaenSkjeddeIFlowEgentlig="k logs flow-process > sedå.json"
 alias open-dev='osascript ~/Scripts/launch_terminals.scpt'
 
 
-# Display neofetch, unless the terminal is opened in in VSzed.
-if [[ "$TERM_PROGRAM" != "zed" ]]; then
+# Display neofetch, unless the terminal is opened in in VScursor.
+if [[ "$TERM_PROGRAM" != "cursor" ]]; then
   neofetch --ascii ~/.config/neofetch/ascii-art/stacc.txt
 fi
 
