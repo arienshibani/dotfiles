@@ -9,6 +9,7 @@ cask "font-fira-code-nerd-font" # Programming ligatures
 
 # BINARIES
 brew "gh" # GitHub CLI
+brew "zsh" # Zsh shell
 brew "node" # Node.js
 brew "fnm" # Node version manager
 brew "helm" # Kubernetes package manager
@@ -17,6 +18,8 @@ brew "kubectl" # Kubernetes CLI
 brew "stern" # Kubernetes log viewer
 brew "kubectx" # Switch between k8s contexts
 brew "gnupg" # GPG
+brew "direnv" # Environment variable manager
+
 
 # APPLICATIONS
 cask "cursor" # Code Editor of choice
@@ -29,5 +32,3 @@ cask "slack" # Business chat
 cask "discord" # Chat
 cask "flameshot" # Screenshot tool
 cask "spotify" # Music
-
-
