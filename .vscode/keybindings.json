@@ -1,0 +1,11 @@
+[
+    {
+        "key": "cmd+k cmd+b",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.files.action.collapseExplorerFolders"
+            ]
+        }
+    }
+]

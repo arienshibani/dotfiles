@@ -4,14 +4,10 @@
     "editor.cursorSmoothCaretAnimation": "on", // Smooth cursor animation.
     "editor.formatOnPaste": true, //Automatically format text when pasting & saving.
     "editor.formatOnSave": true, //Automatically format text when pasting & saving.
-    "editor.mouseWheelZoom": true, //Enable ctrl + mousewheel for zooming.
     "explorer.confirmDelete": false, //Disable confirm prompt when deleting files.
     "explorer.confirmDragAndDrop": false, //Disable confirm prompt when moving files.
     "explorer.sortOrder": "type", //Sort files by type.
-    "files.autoSave": "onFocusChange" // Auto save files when focus is lost.
-    "files.associations": {
-        "*.svelte": "html" //Treat .svelte files as HTML.
-    },
+    "files.autoSave": "onFocusChange", // Auto save files when focus is lost.
     "files.insertFinalNewline": true, //Insert empty line at the end of files.
     "files.trimFinalNewlines": true, //Trim excess new lines.
     "javascript.updateImportsOnFileMove.enabled": "always", // Auto update imports when moving files.
@@ -25,7 +21,7 @@
     "editor.guides.bracketPairs": "active", // Highlight matching brackets.
     "editor.mouseWheelZoom": true, // Enable ctrl + mousewheel for zooming.
     "editor.mouseWheelScrollSensitivity": 1, // Mouse wheel scroll sensitivity.
-    "terminal.integrated.enableMultiLinePasteWarning": false, // Disable paste warning in terminal.
+    "terminal.integrated.enableMultiLinePasteWarning": "never", // Disable paste warning in terminal.
     "git.enableSmartCommit": true, // Enable smart commit.
     "git.confirmSync": false, // Disable confirm prompt when syncing.
     "window.zoomLevel": 1 // Zoom level of the window.

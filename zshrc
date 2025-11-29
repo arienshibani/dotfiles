@@ -4,7 +4,7 @@ export DOTNET_ROOT=/usr/local/share/dotnet/sdk/6.0.422
 export GPG_TTY=$(tty)
 export KUBECONFIG=$(PWD)/.kubeconfig
 
-ZSH_THEME="agnoster"
+ZSH_THEME="robbyrussell"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting you-should-use zsh-bat)
 
 # Quick-edit Config Files 📝
@@ -53,7 +53,6 @@ if [[ -z "${chpwd_functions[(r)_direnv_hook]+1}" ]]; then
   chpwd_functions=( _direnv_hook ${chpwd_functions[@]} )
 fi
 
-# Load enhanced make command
-source ~/repos/makeup/makeup.plugin.zsh
 
-eval "$(starship init zsh)"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
